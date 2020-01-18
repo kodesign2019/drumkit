@@ -6,13 +6,16 @@ html {
 
   #headlineimg {}
 
- /* @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
+
+    .keys {
+          display: flex;
+          flex-direction: row; 
+          justify-content: space-between;
+          flex-wrap: wrap; 
+      }
+    };
     
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
-  */ 
   
   body,html {
     margin: 0;
